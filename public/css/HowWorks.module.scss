@@ -1,0 +1,52 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 120px 0 125px;
+    background: #F0F2F7;
+    padding: 60px 0;
+}
+
+.content {
+    width: var(--page-size);
+
+    .title {
+        color: rgba(0, 0, 0, 0.80);
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        text-transform: capitalize;
+    }
+
+    .btnGroup {
+        display: flex;
+        background: #fff;
+        width: fit-content;
+        border-radius: 24px;
+        margin: 24px 0 26px;
+        .btn {
+            padding: 6px 16px;
+            color: rgba(0, 0, 0, 0.60);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: capitalize;
+            align-items: center;
+            border-radius: 24px;
+            background: #fff;
+            cursor: pointer;
+        }
+        .active {
+            border: 1px solid #FFF;
+            background: var(--theme-color);
+            color: #fff;
+        }
+    }
+
+    .bg {
+        background-repeat: no-repeat;
+        padding-bottom: 35%;
+        background-size: 100% 100%;
+    }
+}

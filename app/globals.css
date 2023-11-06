@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --page-size: 1200px;
+  --theme-color: #F19A38;
+  --theme-bg-color: #fff;
+  --page-size-m: 768px;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  min-width: var(--page-size);
+}
+
+/* @media screen and (max-width: 768px) {
+  body {
+    color: rgb(var(--foreground-rgb));
+    width: 100%;
+    min-width: 100%;
+  }
+} */

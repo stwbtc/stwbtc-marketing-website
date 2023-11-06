@@ -1,0 +1,67 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 120px 0 125px;
+}
+
+.content {
+    width: var(--page-size);
+    display: flex;
+}
+
+.itemBox {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 8px;
+    padding: 40px 32px 28px 32px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 500ms ease;
+}
+
+.itemBox:hover {
+    transform: scale(1.05);
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.035em;
+    color: rgba(0, 0, 0, 0.80);
+    margin: 32px 0 8px;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.subList {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.60);
+}
+.subList li {
+    display: flex;
+}
+.subTitle {
+    padding-right: 10px;
+}

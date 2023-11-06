@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    background: var(--theme-bg-color);
+    color: #fff;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: var(--page-size);
+    margin: 0 auto;
+}
+
+.customeTitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 16px;
+}
+
+.customeTitle span {
+    color: var(--theme-color);
+}
