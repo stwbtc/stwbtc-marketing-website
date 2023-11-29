@@ -22,7 +22,7 @@ const roadmapList = [
             },
             {
                 month: '2024 Q1',
-                desc: 'Launch on Etheruem Testnet'
+                desc: 'Launch on Ethereum Testnet'
             },
             {
                 month: '2024 Q2',
